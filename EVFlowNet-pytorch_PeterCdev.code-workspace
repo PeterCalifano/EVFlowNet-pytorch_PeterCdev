@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../datasets_experiments"
+		},
+		{
+			"path": "../rpg_eklt_PeterCdev"
+		}
+	],
+	"settings": {}
+}
