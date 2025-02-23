@@ -6,11 +6,11 @@ def configs():
     parser.add_argument('--data_path',
                         type=str,
                         help="Path to data directory.",
-                        default='D://EV-FlowNet-pth/data/mvsec/')
+                        default='data/outdoor_day1')
     parser.add_argument('--load_path',
                         type=str,
                         help="Path to saved model.",
-                        default='D://EV-FlowNet-pth/data/log/saver/')
+                        default='./data/log/saver/')
     parser.add_argument('--training_instance',
                         type=str,
                         help="Specific saved model to load. A new one will be generated if empty.",
